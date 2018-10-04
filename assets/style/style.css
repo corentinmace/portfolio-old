@@ -1,0 +1,125 @@
+/* fonts */
+
+@font-face
+{
+    font-family:'adam';
+    src: url(../fonts/Adam.ttf) format('truetype');
+    
+}
+@font-face
+{
+    font-family: 'walkaway';
+    src: url(../fonts/walkaway.ttf);
+}
+
+/* ------------------------- */
+/* Grandiant Body */
+body{
+    margin: 0px;
+    padding:0px;
+
+background: linear-gradient(93deg, #a4a6b7, #8c90c0, #747ac8, #5b64cd, #404cd1);
+background-size: 1000% 1000%;
+
+-webkit-animation: backgroudgradient 6s ease infinite;
+-moz-animation: backgroudgradient 6s ease infinite;
+animation: backgroudgradient 6s ease infinite;
+}
+@-webkit-keyframes backgroudgradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes backgroudgradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes backgroudgradient { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+/* Menu */
+ header{
+margin: 0;
+padding: 0;
+
+}
+.menu{
+    text-align: center;
+}
+   
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+}
+
+li {
+    float: left;
+}
+    
+li a {
+    font-family: 'Adam';
+    display: block;
+    text-align: center;
+    padding: 5px 15px;
+    padding-top: 8px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 200%;
+}
+
+li a:hover {
+    background-color: #FFFFFF;
+    color: #111;
+    font-weight: bold;
+   
+}
+/* -------------------------- */
+
+.reseau {
+    font-family: walkaway;
+    height: 100vh;
+}
+.reseau a {
+    
+    font-size: 150%;
+    color: black;
+    text-decoration: none;
+}
+
+.bvn {
+    font-family: Adam;
+   
+    height: 100vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 300%;
+    font-weight: bold;
+
+}
+.here {
+    font-family: Adam;
+}
+a:hover {
+    font-weight: bold;
+}
+/* footer */
+footer {
+    background-color: black;
+    color: white;
+    font-family: Adam;
+    font-weight: bold;
+    height: 2vh;
+    text-align: center;
+
+}
+
