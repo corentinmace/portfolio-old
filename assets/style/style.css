@@ -41,30 +41,62 @@ animation: backgroudgradient 6s ease infinite;
     100%{background-position:0% 50%}
 }
 
-/* Menu */
- header{
-margin: 0;
-padding: 0;
+/* Sur ce site */
+.here {
+    font-family: Adam;
+    font-weight: bold;
+    font-size: 120%;
+    background-color: black;
+    color: white;
+    padding: 1px;
 
 }
-.menu{
+.here p {
+    margin-left: 45px;
+    font-size: 140%;
+
+}
+.here ul {
+    font-family: walkaway;
+    font-weight: bold;
+    font-size: 120%;
+    margin-left: 45px;
+}
+.here h1 {
+    padding-left: 9px;
+}
+
+/* ---------------*/
+a:hover {
+    font-weight: bold;
+}
+
+/* Menu */
+header {
+    position: sticky;
+    top: 0;
+}
+
+
+.menu {
     text-align: center;
+    background-color: black;
+    
 }
    
 
-ul {
+.menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #111;
 }
 
-li {
+.menu li {
     float: left;
 }
     
-li a {
+.menu li a {
     font-family: 'Adam';
     display: block;
     text-align: center;
@@ -75,7 +107,7 @@ li a {
     font-size: 200%;
 }
 
-li a:hover {
+.menu li a:hover {
     background-color: #FFFFFF;
     color: #111;
     font-weight: bold;
@@ -104,14 +136,9 @@ li a:hover {
     justify-content: center;
     font-size: 300%;
     font-weight: bold;
+}
 
-}
-.here {
-    font-family: Adam;
-}
-a:hover {
-    font-weight: bold;
-}
+
 /* footer */
 footer {
     background-color: black;
