@@ -40,6 +40,8 @@ animation: backgroudgradient 6s ease infinite;
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
+/* -------------------- */
+
 
 /* Sur ce site */
 .here {
@@ -64,6 +66,10 @@ animation: backgroudgradient 6s ease infinite;
 }
 .here h1 {
     padding-left: 9px;
+}
+.here a {
+    text-decoration: none;
+    color: white;
 }
 
 /* ---------------*/
@@ -115,6 +121,43 @@ header {
 }
 /* -------------------------- */
 
+.contact {
+       font-family: Adam;
+    font-weight: bold;
+    font-size: 120%;
+    background-color: black;
+    color: white;
+    padding: 1px;
+    padding-bottom: 20px;
+}
+.contact img {
+    max-height: 50px;
+    max-width: 50px;
+    float: left;
+    padding-right: 10px;
+    padding-left: 15px;
+
+
+}
+.contact p {
+    margin-left: 45px;
+    font-size: 140%;
+
+}
+.contact ul {
+    font-family: walkaway;
+    font-weight: bold;
+    font-size: 120%;
+    margin-left: 45px;
+}
+.contact h1 {
+    padding-left: 9px;
+}
+.contact a {
+    text-decoration: none;
+    color: white;
+}
+/* Reseaux */
 .reseau {
     font-family: walkaway;
     height: 100vh;
@@ -125,7 +168,13 @@ header {
     color: black;
     text-decoration: none;
 }
+/* --------------------------*/
+.title {
+    font-size: 200%;
+    font-family: Adam;
+}
 
+/* Welcome word */
 .bvn {
     font-family: Adam;
    
@@ -138,6 +187,7 @@ header {
     font-weight: bold;
 }
 
+/* ------------------------------*/
 
 /* footer */
 footer {
