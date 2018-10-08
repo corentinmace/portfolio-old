@@ -13,6 +13,12 @@
 }
 
 /* ------------------------- */
+
+
+
+
+
+
 /* Grandiant Body */
 body{
     margin: 0px;
@@ -41,6 +47,23 @@ animation: backgroudgradient 6s ease infinite;
     100%{background-position:0% 50%}
 }
 /* -------------------- */
+
+
+
+
+
+
+/* General Body */
+a:hover {
+    font-weight: bold;
+}
+/* ------------------------- */
+
+
+
+
+
+
 
 
 /* Sur ce site */
@@ -73,9 +96,15 @@ animation: backgroudgradient 6s ease infinite;
 }
 
 /* ---------------*/
-a:hover {
-    font-weight: bold;
-}
+
+
+
+
+
+
+
+
+
 
 /* Menu */
 header {
@@ -121,6 +150,15 @@ header {
 }
 /* -------------------------- */
 
+
+
+
+
+
+
+
+
+/* contact */
 .contact {
        font-family: Adam;
     font-weight: bold;
@@ -128,12 +166,14 @@ header {
     background-color: black;
     color: white;
     padding: 1px;
-    padding-bottom: 20px;
+    
+
 }
 .contact img {
     max-height: 50px;
     max-width: 50px;
     float: left;
+
     padding-right: 10px;
     padding-left: 15px;
 
@@ -157,6 +197,15 @@ header {
     text-decoration: none;
     color: white;
 }
+/* ---------------------- */
+
+
+
+
+
+
+
+
 /* Reseaux */
 .reseau {
     font-family: walkaway;
@@ -169,10 +218,13 @@ header {
     text-decoration: none;
 }
 /* --------------------------*/
-.title {
-    font-size: 200%;
-    font-family: Adam;
-}
+
+
+
+
+
+
+
 
 /* Welcome word */
 .bvn {
@@ -186,8 +238,19 @@ header {
     font-size: 300%;
     font-weight: bold;
 }
+/* ------------------------------ */
 
-/* ------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
 
 /* footer */
 footer {
@@ -199,4 +262,4 @@ footer {
     text-align: center;
 
 }
-
+/* ----------------------------- */
