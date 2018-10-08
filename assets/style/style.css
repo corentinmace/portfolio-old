@@ -4,7 +4,7 @@
 {
     font-family:'adam';
     src: url(../fonts/Adam.ttf) format('truetype');
-    
+
 }
 @font-face
 {
@@ -12,6 +12,10 @@
     src: url(../fonts/walkaway.ttf);
 }
 
+@font-face {
+    font-family: 'rounded';
+    src: url(../fonts/walkaway/rounded.ttf);
+}
 /* ------------------------- */
 
 
@@ -41,7 +45,7 @@ animation: backgroudgradient 6s ease infinite;
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
-@keyframes backgroudgradient { 
+@keyframes backgroudgradient {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
@@ -68,7 +72,7 @@ a:hover {
 
 /* Sur ce site */
 .here {
-    font-family: Adam;
+    font-family: rounded;
     font-weight: bold;
     font-size: 120%;
     background-color: black;
@@ -79,14 +83,11 @@ a:hover {
 .here p {
     margin-left: 45px;
     font-size: 140%;
+    
 
 }
-.here ul {
-    font-family: walkaway;
-    font-weight: bold;
-    font-size: 120%;
-    margin-left: 45px;
-}
+
+
 .here h1 {
     padding-left: 9px;
 }
@@ -116,9 +117,9 @@ header {
 .menu {
     text-align: center;
     background-color: black;
-    
+
 }
-   
+
 
 .menu ul {
     list-style-type: none;
@@ -130,7 +131,7 @@ header {
 .menu li {
     float: left;
 }
-    
+
 .menu li a {
     font-family: 'Adam';
     display: block;
@@ -146,7 +147,7 @@ header {
     background-color: #FFFFFF;
     color: #111;
     font-weight: bold;
-   
+
 }
 /* -------------------------- */
 
@@ -166,7 +167,7 @@ header {
     background-color: black;
     color: white;
     padding: 1px;
-    
+
 
 }
 .contact img {
@@ -212,7 +213,7 @@ header {
     height: 100vh;
 }
 .reseau a {
-    
+
     font-size: 150%;
     color: black;
     text-decoration: none;
@@ -229,7 +230,7 @@ header {
 /* Welcome word */
 .bvn {
     font-family: Adam;
-   
+
     height: 100vh;
     width: auto;
     display: flex;
