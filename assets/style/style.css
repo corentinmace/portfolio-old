@@ -14,7 +14,7 @@
 
 @font-face {
     font-family: 'rounded';
-    src: url(../fonts/walkaway/rounded.ttf);
+    src: url(../fonts/rounded.ttf);
 }
 /* ------------------------- */
 
@@ -72,9 +72,8 @@ a:hover {
 
 /* Sur ce site */
 .here {
-    font-family: rounded;
-    font-weight: bold;
-    font-size: 120%;
+    font-family: 'rounded';
+
     background-color: black;
     color: white;
     padding: 1px;
@@ -82,18 +81,23 @@ a:hover {
 }
 .here p {
     margin-left: 45px;
-    font-size: 140%;
-    
+    font-size: 160%;
+font-family: 'rounded';
 
 }
 
 
 .here h1 {
     padding-left: 9px;
+    font-family: 'rounded';
+    font-size: 170%;
 }
 .here a {
     text-decoration: none;
     color: white;
+}
+.here li {
+  font-size: 145%;
 }
 
 /* ---------------*/
