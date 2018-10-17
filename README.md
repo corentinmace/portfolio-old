@@ -2,7 +2,7 @@
 **Version 2.1**
 
 ## Changement de la version :
-### Manjor changes :
+### Major changes :
 
 * Refonte graphique
 
@@ -12,7 +12,7 @@
   * Suppresion de cv.html
   
 **Passage sur une seule page scrolable**
-
+### Minor changes
 
   * Ajout de scripts
   * Ajout de css (aos)
