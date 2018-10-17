@@ -1,0 +1,157 @@
+/* fonts */
+
+@font-face
+{
+    font-family:'adam';
+    src: url(../fonts/Adam.ttf) format('truetype');
+
+}
+@font-face
+{
+    font-family: 'walkaway';
+    src: url(../fonts/walkaway.ttf);
+}
+
+@font-face {
+    font-family: 'rounded';
+    src: url(../fonts/rounded.ttf);
+}
+
+/* ---------------------------------------------- */
+
+
+
+#accueil {
+  background: linear-gradient(
+ rgba(68, 70, 70, 0.70),
+ rgba(68, 70, 70, 0.70)
+ ),url(../img/background.jpg);
+ background-size:cover;
+ background-repeat:no-repeat;
+ background-position: center;
+ background-attachment: fixed;
+
+}
+
+#aboutme {
+  background: linear-gradient(
+ rgba(68, 70, 70, 0.70),
+ rgba(68, 70, 70, 0.70)
+ ),url(../img/background2.jpg);
+ background-size:cover;
+ background-repeat:no-repeat;
+ background-position: center;
+ background-attachment: fixed;
+}
+
+#cv {
+  background: linear-gradient(
+ rgba(68, 70, 70, 0.70),
+ rgba(68, 70, 70, 0.70)
+ ),url(../img/background3.jpg);
+ background-size:cover;
+ background-repeat:no-repeat;
+ background-position: center;
+ background-attachment: fixed;
+}
+
+#contact {
+    background: linear-gradient(
+ rgba(68, 70, 70, 0.70),
+ rgba(68, 70, 70, 0.70)
+ ),url(../img/background4.jpg);
+ background-size:cover;
+ background-repeat:no-repeat;
+ background-position: center;
+ background-attachment: fixed;
+}
+
+
+
+
+header {
+
+}
+
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+
+}
+
+
+
+footer {
+  background-color: rgba(0, 0, 0, 0.70);
+  color: white;
+  text-align: center;
+  font-family: Adam;
+  font-weight: bold;
+  height: 2vh;
+  position: relative;
+
+}
+
+
+
+
+
+
+
+
+/* Barre de navigation */
+
+
+nav {
+  background-color: rgba(0, 0, 0, 0.70);
+  font-family: 'Adam';
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  margin-bottom: -67px;
+
+}
+
+nav a {
+  text-decoration: none;
+  padding: 2.2px 10px;
+  color: white;
+  font-size: 200%;
+  padding-top: 5px;
+  display: inline-block;
+}
+
+nav a:hover {
+  transition: 0.5s;
+  background-color: grey;
+  color: black;
+  font-weight: bold;
+}
+
+/* ----------------------------- */
+
+
+
+
+
+
+
+
+/* Titre de page */
+.page_title {
+      font-family: Adam;
+
+    height: 100vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+
+/* ----------------- */
