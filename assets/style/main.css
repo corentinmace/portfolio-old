@@ -64,6 +64,7 @@
  background-repeat:no-repeat;
  background-position: center;
  background-attachment: fixed;
+
 }
 
 
@@ -90,7 +91,7 @@ footer {
   text-align: center;
   font-family: Adam;
   font-weight: bold;
-  height: 2vh;
+  
   position: relative;
 
 }

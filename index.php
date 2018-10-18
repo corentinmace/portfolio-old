@@ -28,7 +28,7 @@
   <main>
   <div id="accueil">
     <h1 data-aos="zoom-in" class="page_title">PORTFOLIO</h1>
-</div>
+  </div>
 
       <div id="aboutme">
     <h1 data-aos="zoom-in" class="page_title">A PROPOS</h1>
