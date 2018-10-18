@@ -70,9 +70,7 @@
 
 
 
-header {
 
-}
 
 
 
@@ -91,7 +89,7 @@ footer {
   text-align: center;
   font-family: Adam;
   font-weight: bold;
-  
+
   position: relative;
 
 }
@@ -152,7 +150,46 @@ nav a:hover {
     justify-content: center;
     font-size: 100px;
     font-weight: bold;
+
 }
 
+#particles-js {
+  z-index: 1;
+  height: 100%;
+  background-position: center;
+  
+
+}
 
 /* ----------------- */
+
+.aboutme {
+  background-color: black;
+  height: 100vh;
+  color: white;
+}
+.aboutme h1 {
+  font-family: rounded;
+  padding-left: 50px;
+}
+.aboutme p{
+  font-family: rounded;
+  padding-left: 70px;
+  font-size: 150%
+}
+.aboutme a {
+  text-decoration: none;
+  color: white;
+}
+.aboutme a:hover {
+  font-weight: bold;
+}
+
+.cv {
+  background-color: black;
+  height: 100vh;
+}
+.contact {
+  background-color: black;
+  height: 100vh;
+}
