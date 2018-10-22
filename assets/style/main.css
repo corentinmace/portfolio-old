@@ -19,6 +19,16 @@
 
 /* ---------------------------------------------- */
 
+#particles-js {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
 
 
 #accueil {
@@ -30,6 +40,8 @@
  background-repeat:no-repeat;
  background-position: center;
  background-attachment: fixed;
+ height: 100vh;
+
 
 }
 
@@ -42,6 +54,7 @@
  background-repeat:no-repeat;
  background-position: center;
  background-attachment: fixed;
+ height: 100vh;
 }
 
 #cv {
@@ -53,6 +66,7 @@
  background-repeat:no-repeat;
  background-position: center;
  background-attachment: fixed;
+ height: 100vh;
 }
 
 #contact {
@@ -64,6 +78,20 @@
  background-repeat:no-repeat;
  background-position: center;
  background-attachment: fixed;
+ height: 100vh;
+
+}
+#github {
+
+    background: linear-gradient(
+ rgba(68, 70, 70, 0.70),
+ rgba(68, 70, 70, 0.70)
+ ),url(../img/background5.jpg);
+ background-size:cover;
+ background-repeat:no-repeat;
+ background-position: center;
+ background-attachment: fixed;
+ height: 100vh;
 
 }
 
@@ -78,6 +106,7 @@ body {
   margin: 0px;
   padding: 0px;
   background-color: black;
+
 
 }
 
@@ -105,11 +134,11 @@ footer {
 
 
 nav {
-  background-color: rgba(0, 0, 0, 0.70);
+  background-color: black;
   font-family: 'Adam';
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 10;
   margin-bottom: -67px;
 
 }
@@ -143,7 +172,7 @@ nav a:hover {
 .page_title {
       font-family: Adam;
 
-    height: 100vh;
+   height: 100vh;
     width: auto;
     display: flex;
     align-items: center;
@@ -151,15 +180,20 @@ nav a:hover {
     font-size: 100px;
     font-weight: bold;
 
-}
+   }
 
-#particles-js {
-  z-index: 1;
-  height: 100%;
-  background-position: center;
-  
 
-}
+
+
+
+
+
+
+
+
+
+
+
 
 /* ----------------- */
 
@@ -175,6 +209,7 @@ nav a:hover {
 .aboutme p{
   font-family: rounded;
   padding-left: 70px;
+	padding-right: 70px;
   font-size: 150%
 }
 .aboutme a {
@@ -187,9 +222,80 @@ nav a:hover {
 
 .cv {
   background-color: black;
-  height: 100vh;
+  height: auto;
+  color: white;
 }
+.github {
+	background: black;
+	height: 100vh;
+	color: white;
+}
+
+
 .contact {
   background-color: black;
   height: 100vh;
+}
+
+
+
+
+
+
+/* CV */
+.headercv {
+  display: flex;
+  width:100%;
+  height: 30vh;
+  background-color: white;
+  color: black;
+
+
+}
+
+
+.cvbody {
+  background-color: blue;
+  display: flex;
+  flex-flow: row wrap;
+	padding-top: 5px;
+
+
+
+}
+.barrelatgauche {
+  display: inline-flex;
+  flex-direction: column;
+  background-color: red;
+}
+.barrelatgauche img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.barremilieu {
+  display: inline-flex;
+  flex-direction: row;
+  background-color: rgb(74, 94, 200);
+  align-content: stretch;
+width: auto;
+
+}
+.formation {
+
+}
+.barrelatdroite {
+  background-color: magenta;
+  display: inline-flex;
+  flex-direction: column;
+
+
+}
+.barrelatdroite img {
+  max-width: 100px;
+  max-height: 100px;
+}
+.barrelatdroite .tropgrand {
+  max-width: 75px;
+  max-height: 75px;
 }
