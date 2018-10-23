@@ -15,7 +15,7 @@
       	<a href="index.html#accueil">ACCUEIL</a>
       	<a href="index.html#aboutme">A PROPOS</a>
       	<a href="index.html#cv">CURRICULUM VITAE</a>
-				<a href="index.html#github">GITHUB</a>
+				<a href="index.html#projects">PROJETS</a>
 				<a href="index.html#contact">CONTACT</a>
 
     	</div>
@@ -47,6 +47,7 @@
 		Je suis aussi bassiste dans un groupe de stoner-rock, qui est appellé <a  target="_blank"href="https://www.facebook.com/flyindistortion/?ref=bookmarks">Flyin' Distortion</a>
     <br />Je crée ce site en vu de mon projet de fin d'année en cour d'HTML/CSS à Ynov
 	</p>
+
     </div>
     <div id="cv">
 
@@ -56,36 +57,75 @@
 
       <!-- CV -->
     <div class="cv">
-      <div class="headercv">
-        <h1>MACE Corentin</h1><h6>né le 27 juin 2000</h6>
-          <h3>CURRICULUM VITAE</h3>
-        <div class="barre2px"></div>
-        <div class="aboutmecv">
-          <h2>A propos de moi</h2>
+      <div class="cvblock">
+
+
+        <div class="headercvleft"><h1>MACE Corentin</h1><h4>né le 27 juin 2000</h4>
+          <br /><p>CURRICULUM VITAE</p></div>
+
+        <div class="headercvright"><div class="aboutmecv">
+          <h1>A propos de moi</h1></div>
           <ul>
-            <li>Passioné d'informatique depuis mon plus jeune age</li>
-            <li>Pratique le skateboard depuis 3 ans</li>
-            <li>Photographe amateur</li>
-            <li>Bassiste dans un groupe de rock</li>
-            <li>Passioné de jeux vidéos depuis mon plus jeune age</li>
-            <li>Dessine depuis juin 2017</li>
+            <li>- Passioné d'informatique depuis mon plus jeune age</li>
+            <li>- Pratique le skateboard depuis 3 ans</li>
+            <li>- Photographe amateur</li>
+            <li>- Bassiste dans un groupe de rock</li>
+            <li>- Passioné de jeux vidéos depuis mon plus jeune age</li>
+            <li>- Dessine depuis juin 2017</li>
           </ul>
         </div>
-            <img src="assets/img/idpic.jpg" alt="">
-     </div>
-     <div class="barre5px"></div>
-     <div class="cvbody">
+            <img class="photocv" src="assets/img/idpic.jpg" alt="">
+
+
+     <div class="barrelatdroite">
+           <div class="barreblanche">
+
+            <h1>COMPTENCES</h1>
+           </div>
+
+             <p class="principal-line">Creativité</p>
+             <progress value="60" max="100">60%</progress>
+             <p class="principal-line">Windows</p>
+             <progress value="90" max="100">90%</progress>
+             <p class="principal-line">Microsoft Office</p>
+             <progress value="80" max="100">80%</progress>
+             <p class="principal-line">Maintenance informatique</p>
+             <progress value="80" max="100">80%</progress>
+             <p class="principal-line">Internet</p>
+             <progress value="95" max="100">95%</progress>
+             <p class="principal-line">HTML-CSS</p>
+             <progress value="65" max="100">65%</progress>
+             <p class="principal-line">Photoshop</p>
+             <progress value="60" max="100">60%</progress>
+
+           <div class="barreblanche">
+
+             <h1>LANGUES</h1>
+           </div>
+
+             <p class="principal-line">Anglais</p>
+             <progress value="85" max="100">85%</progress>
+             <p class="principal-line">Espagnol</p>
+             <progress value="45" max="100">45%</progress>
+             <p class="principal-line">Japonnais</p>
+             <progress value="10" max="100">10%</progress>
+           </div>
+
      <div class="barrelatgauche">
-       <img src="/assets/ico/studies.png" alt="">
+      <div class="studiesg">
+
+      <img src="/assets/ico/studies.png" alt="">
        <p>2018 - Aujourd'hui</p>
        <p>2015 - 2018</p>
-       <p>2011 - 2015</p>
-       <img src="/assets/ico/exp.png" alt="">
+       <p>2011 - 2015</p></div>
+
+      <div class="expprog">
+      <img src="/assets/ico/exp.png" alt="">
        <p>2018 - Aujourd'hui</p>
        <p>2015 - Aujourd'hui</p>
-       <p>2015</p>
+       <p>2015</p></div>
      </div>
-     <div class="barremilieu">
+
         <div class="formation">
           <h1>Formation</h1>
           <ul>
@@ -108,58 +148,33 @@
             <li>InfoBuro</li>
             <li class="commentaire">Stage dans une entreprise pour le collège</li>
           </ul>
-
         </div>
-     </div>
- <div class="barrelatdroite">
-       <div class="barreblanche">
-        <img src="/assets/ico/skill.png" alt="">
-        <h3>COMPTENCES</h3>
+
+
+
+
        </div>
-       <div class="skills">
-         <p class="principal-line">Creativité</p>
-         <progress value="60" max="100">60%</progress>
-         <p class="principal-line">Windows</p>
-         <progress value="90" max="100">90%</progress>
-         <p class="principal-line">Microsoft Office</p>
-         <progress value="80" max="100">80%</progress>
-         <p class="principal-line">Maintenance informatique</p>
-         <progress value="80" max="100">80%</progress>
-         <p class="principal-line">Internet</p>
-         <progress value="95" max="100">95%</progress>
-         <p class="principal-line">HTML-CSS</p>
-         <progress value="65" max="100">65%</progress>
-         <p class="principal-line">Photoshop</p>
-         <progress value="60" max="100">60%</progress>
-       </div>
-       <div class="barreblanche">
-         <img class="tropgrand" src="/assets/ico/langue.png" alt="">
-         <h3>LANGUES</h3>
-       </div>
-       <div class="languecv">
-         <p class="principal-line">Anglais</p>
-         <progress value="85" max="100">85%</progress>
-         <p class="principal-line">Espagnol</p>
-         <progress value="45" max="100">45%</progress>
-         <p class="principal-line">Japonnais</p>
-         <progress value="10" max="100">10%</progress>
-       </div>
-       <div class="contactcv">
-         <h3>CONTACT</h3>
-       </div>
-     </div>
-    </div>
+
     <button type="button" name="cvfr"><a href="/assets/files/cvfr.pdf" download="CV Français MACE Corentin">Télécharger mon CV</a></button>
     <button type="button" name="cven"><a href="/assets/files/cven.pdf" download="CV English MACE Corentin">Download my CV</a> </button>
  </div>
 
       <!-- Fin CV -->
-		<div id="github">
-				<h1 data-aos="zoom-in" class="page_title">GITHUB</h1>
+		<div id="projects">
+				<h1 data-aos="zoom-in" class="page_title">PROJETS</h1>
 		</div>
-		<div class="github">
+		<div class="projects">
+      <h1>C'est ici que vous retrouverez mes projets en cour et finis</h1>
+<div class="cards">
+<div class="github-card" data-github="corentinmace" data-width="400" data-height="" data-theme="default"></div>
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+    <h2>Arduino - Thermometre sur afficheur 4 digit</h2>
+    <p>Ceci est mon premier projet que j'ai fais sur Arduino, il affiche simplement la tempature d'une sonde sur un afficheur 4 digit</p>
+    <div class="github-card" data-github="corentinmace/temp-4digit-arduino" data-width="400" data-height="" data-theme="default"></div>
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+</div>
+		</div>
 
-		</div>
     <div id="contact">
 
       <h1 data-aos="zoom-in" class="page_title">CONTACT</h1>

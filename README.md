@@ -1,20 +1,44 @@
 # PORTFOLIO - CORENTIN MACE
 
-**Version 2.2**
+**Version 2.3**
 
 # Changement de la version :
 
 ## Major changes :
 
 - Refonte graphique : suite
-- Ajout d'une section GITHUB
-- Ajout d'une animation particles.js
+- Section GITHUB renomé en PROJETS
+- Finalisation du CV
 
 ## Minor changes :
 
-- debut de la mise en forme du cv avec flexbox
+- Debut de remplisage du la section PROJETS
 
 ## Avancement des pages :
+
+- ACCUEIL **99%**
+- A PROPOS **50%**
+- CURRICULUM VITAE **95%**
+- PROJETS **20%**
+- CONTACT **0%**
+
+--------------------------------------------------------------------------------
+
+**Version 2.2**
+
+### Changement de la version :
+
+#### Major changes :
+
+- Refonte graphique : suite
+- Ajout d'une section GITHUB
+- Ajout d'une animation particles.js
+
+#### Minor changes :
+
+- debut de la mise en forme du cv avec flexbox
+
+### Avancement des pages :
 
 - ACCUEIL **99%**
 - A PROPOS **50%**
