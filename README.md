@@ -16,7 +16,8 @@
 
 ## Avancement des pages :
 
-- ACCUEIL **1%**
+- ACCUEIL **5%**
+- MENU **80%**
 - A PROPOS **0%**
 - CURRICULUM VITAE **0%**
 - PROJETS **0%**
