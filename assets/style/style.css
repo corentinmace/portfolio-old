@@ -3,3 +3,9 @@
 @import url("header.css");
 @import url("font.css");
 @import url("main.css");
+@import url("aos.css");
+
+/* width */
+::-webkit-scrollbar {
+    width:0px;
+}
